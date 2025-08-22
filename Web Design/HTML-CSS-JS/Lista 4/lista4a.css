@@ -1,0 +1,46 @@
+div.corpo{
+    text-align: center;
+}
+.button{
+    font-size: 18px;
+    border-radius: 10%;
+    border-width: 2px
+}
+div.listg{
+    text-align: left;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+body{
+    background-color: rgb(157, 182, 149);
+    text-align: center;
+}
+.q10{
+    color: rgb(35, 51, 233);
+}
+div.corpo{
+    text-align: center;
+    font-size: 18px;
+}
+.button{
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+.button1{
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-bottom: 0.5%;
+}
+div.listg{
+    text-align: left;
+    margin-left: 41%;
+    margin-right: 41%;
+}
+header{
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    background-color: rgb(152, 172, 217);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Lista L4 - Web Design </title>
+    <link rel="stylesheet" href="lista4.css">
+    <link rel="icon" type="image/x-icon" href="https://rwnobrega.page/_assets/ifsc-logo.png">
+    <script>
+        const aluno = "Gabriel Ribeiro de Souza"
+        const sit = "Questão 2 realizada neste alerta"
+        const uc = "Web Design - CTDS (2025.1)"
+    </script>
+</head>
+
+<body>
+<header>
+    <h1> Lista L4 - Web Design</h1>
+    <h3> Aluno : Gabriel Ribeiro de Souza </h3>
+    <h4> UC = Web Design - CTDS (Semestre 2025/1) </h4>
+    <button class="button1" id="retorno" onclick="goBack()"> Retornar à página inicial </button>
+</header>
+
+<div class="corpo">
+
+    <h3> Questão 2 </h3>
+    <p> 2) HTML com JS Incorporado </p>
+    <p class="enunciado"> Questão 2 Realizada na caixa de alerta </p>
+    <script>
+        function goBack(){
+        let result = document.getElementById("retorno")
+        result = window.location.href = "lista4.html"
+        }
+        alert("Nome do aluno: " +aluno+ "\nUC: " +uc+ "\n\nStatus da Questão: " + sit);
+    </script>
+
+</div>
+
+<footer>
+</footer>
+</body>
+</html>

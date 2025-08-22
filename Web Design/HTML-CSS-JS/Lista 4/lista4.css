@@ -1,0 +1,102 @@
+div.corpo{
+    text-align: center;
+    font-size: 18px;
+}
+.button{
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+.button1{
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-bottom: 0.5%;
+}
+div.listg{
+    text-align: left;
+    margin-left: 41%;
+    margin-right: 41%;
+}
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+header{
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    background-color: rgb(133, 181, 152);
+}
+div.parte1{
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 0.3%;
+}
+div.parte2{
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 0.3%;
+}
+div.parte3{
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 0.3%;
+}
+div.parte1 div{
+    border-style: solid;
+    border-width: 0.5px;
+    float: left;
+    width: 24.4%;
+    height: 110px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    margin: 0.3%;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+div.parte2 div{
+    border-style: solid;
+    border-width: 0.5px;
+    float: left;
+    width: 24.4%;
+    height: 110px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    margin: 0.3%;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+div.parte3 div{
+    border-style: solid;
+    border-width: 0.5px;
+    float: left;
+    width: 32.7%;
+    height: 110px;
+    box-sizing: border-box;
+    margin: 0.3%;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+.enunciado{
+    margin: 2px;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+.enunciado1{
+    margin: 2px;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+.hide{
+    margin: 2px;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    display: none;
+}
+.enunciado1:hover + .hide{
+    display: block;
+}
+.enunciado1:hover {
+    display: none;
+}

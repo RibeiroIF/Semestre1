@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Lista L4 - Web Design </title>
+    <link rel="stylesheet" href="lista4.css">
+    <link rel="icon" type="image/x-icon" href="https://rwnobrega.page/_assets/ifsc-logo.png">
+</head>
+
+<body>
+<header>
+    <h1> Lista L4 - Web Design</h1>
+    <h3> Aluno : Gabriel Ribeiro de Souza </h3>
+    <h4> UC = Web Design - CTDS (Semestre 2025/1) </h4>
+    <button class="button1" id="retorno" onclick="goBack()"> Retornar à página inicial </button>
+</header>
+
+<div class="corpo">
+
+    <h3> Questão 9 </h3>
+    <p id="q8"> 9) Conversão de Fahrenheit para Celsius com limite de duas casas decimais
+    (inicialmente oculto, aparecendo após a conversão e voltando a ficar oculto com comando) <p>
+    <hr>
+    <label for="tempF" id="number"> Digite a Temperatura em Fahrenheit: </label>
+    <input type="text" id="tempF" class="caixa_de_input">
+    <p> A temperatura em Celsius é de: <a id="tempC" onclick="myQ9b()"></a></p>
+    <p id="finish"></p>
+    <button class="button" id="b9" onclick="myQ9()"> Resolver Questão 9 </button>
+
+
+    <script src="lista4.js"></script>
+</div>
+
+<footer>
+</footer>
+</body>
+</html>
